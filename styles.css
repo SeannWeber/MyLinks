@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2rem;
+    background: #aad4e8;
+}
+
+.link {
+    text-align: center;
+    display:block;
+    margin: 10px auto;
+    padding: 12px 20px;
+    width: 200px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    background: #555;
+    color: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* Contact Form Section */
+
+
+  
+  #contact {
+    max-width: 500px;
+    margin: 60px auto;
+    background: #ffffffcc;
+    backdrop-filter: blur(8px);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 154, 218, 0.2);
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    color: #009ADA;
+    margin-bottom: 10px;
+  }
+  
+  #contact p {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input, textarea {
+    padding: 14px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #009ADA;
+  }
+  
+  button {
+    background-color: #009ADA;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #007bbf;
+    transform: translateY(-2px);
+  }
+  
